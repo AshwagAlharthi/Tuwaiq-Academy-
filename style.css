@@ -49,6 +49,10 @@
     list-style: none;
 }
 
+.navbar-list-content a{
+    text-decoration: none;
+    color: black;
+}
 
 .navbar-button {
     width: 20%;
@@ -703,6 +707,11 @@
     height: 20vh;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 .res-footer, .res-footer-box2, .res-footer-box3{
     display: none;
 }
@@ -846,6 +855,10 @@
         list-style: none;
     }
 
+    .navbar-list-content a{
+        text-decoration: none;
+        color: black;
+    }
 
     .navbar-button {
         width: 20%;
@@ -1532,6 +1545,11 @@
         /* align-items: flex-end; */
         flex-direction: column;
         height: 70vh;
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
     }
 
     .footer-box1 {
