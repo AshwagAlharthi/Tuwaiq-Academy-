@@ -14,6 +14,7 @@
     position: fixed;
     background: rgba(255, 255, 255, 0.6);
     backdrop-filter: blur(3px);
+    z-index: 4;
 }
 
 .navbar-logo {
@@ -389,6 +390,7 @@
 }
 
 .academy-icon,
+.academy-icon1,
 .academy-icon2,
 .academy-icon3 {
     background-color: #91d8db;
@@ -404,6 +406,10 @@
 
 .academy-icon img {
     width: 60%;
+}
+
+.academy-icon1 img {
+    width: 40%;
 }
 
 .academy-icon2 img {
@@ -695,6 +701,10 @@
     /* background-color: #91d8db; */
     align-items: flex-end;
     height: 20vh;
+}
+
+.res-footer, .res-footer-box2, .res-footer-box3{
+    display: none;
 }
 
 .footer-box1 {
