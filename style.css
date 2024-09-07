@@ -270,7 +270,8 @@
 .academy-numbers-container,
 .academy-activities-container,
 .partners-container,
-.subscribe-container {
+.subscribe-container,
+.footer-container {
     width: 100%;
     height: 75vh;
     /* background-color: #cce2f7; */
@@ -285,7 +286,9 @@
 .academy-numbers-content,
 .academy-activities-content,
 .partners-content,
-.subscribe-content {
+.subscribe-content,
+.footer-content,
+.footer-content2 {
     width: 90%;
     height: 28vh;
     /* background-color: #8d64ee; */
@@ -621,6 +624,7 @@
     width: 14vw;
     height: 6vh;
     font-size: 1rem;
+    padding-right: 0.5rem;
     border: none;
 }
 
@@ -634,3 +638,103 @@
     background-color: #4e3797;
 }
 
+/* footer */
+
+.footer-container{
+    background-color: #4e3797;
+    height: 45vh;
+    color: white;
+    justify-content: center;
+}
+
+.footer-content{
+    /* background-color: #91d8db; */
+    align-items: flex-end;
+    height: 20vh;
+}
+
+.footer-box1 {
+    width: 18%;
+    height: 45%;
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-box1 img {
+    width: 80%;
+}
+
+.footer-box2 {
+    width: 18%;
+    height: 45%;
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-box3 {
+    width: 18%;
+    height: 45%;
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-box4 {
+    width: 18%;
+    height: 45%;
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-box5 {
+    width: 18%;
+    height: 45%;
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-box5 img {
+    width: 80%;
+}
+
+.footer-icons-container{
+    /* background-color: rgb(113, 112, 112); */
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-icons{
+    width: 2vw;
+    height: 4vh;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-icons img{
+    width: 55%;
+}
+
+.footer-content2{
+    /* background-color: #21696c; */
+    align-items: flex-end;
+    height: 15vh;
+}
