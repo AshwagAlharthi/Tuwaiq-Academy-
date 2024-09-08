@@ -174,7 +174,6 @@
         align-items: center;
         justify-content: space-evenly;
         font-size: 0.3rem;
-        background-color: #91d8db;
     }
 
     .details-time img {
@@ -895,7 +894,7 @@
         font-size: 0.8rem;
         margin-top: 0.8rem;
     }
-    
+
     .details2 {
         display: flex;
         justify-content: space-between;
