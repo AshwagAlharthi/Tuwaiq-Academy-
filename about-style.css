@@ -81,28 +81,28 @@
 .first-section-container {
     width: 100%;
     height: 115vh;
-    background-color: brown;
+    /* background-color: brown; */
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 /* video */
-.video-box {
+.video-container {
+    position: relative;
     width: 59.5%;
     height: 70vh;
-    background-color: antiquewhite;
-    position: relative;
     overflow: hidden;
 }
 
-.video-box video {
+.video-container video {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 13px;
     z-index: -1;
 }
 
